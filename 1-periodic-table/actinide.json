@@ -1,0 +1,108 @@
+[
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "symbol": "Ac",
+    "atomicNumber": 89,
+    "atomicMass": 227,
+    "name": "Actinium"
+  },
+  {
+    "symbol": "Th",
+    "atomicNumber": 90,
+    "atomicMass": 232.04,
+    "name": "Thorium"
+  },
+  {
+    "symbol": "Pa",
+    "atomicNumber": 91,
+    "atomicMass": 231.04,
+    "name": "Protactinium"
+  },
+  {
+    "symbol": "U",
+    "atomicNumber": 92,
+    "atomicMass": 238.03,
+    "name": "Uranium"
+  },
+  {
+    "symbol": "Np",
+    "atomicNumber": 93,
+    "atomicMass": 237,
+    "name": "Neptunium"
+  },
+  {
+    "symbol": "Pu",
+    "atomicNumber": 94,
+    "atomicMass": 244,
+    "name": "Plutonium"
+  },
+  {
+    "symbol": "Am",
+    "atomicNumber": 95,
+    "atomicMass": 243,
+    "name": "Americium"
+  },
+  {
+    "symbol": "Cm",
+    "atomicNumber": 96,
+    "atomicMass": 247,
+    "name": "Curium"
+  },
+  {
+    "symbol": "Bk",
+    "atomicNumber": 97,
+    "atomicMass": 247,
+    "name": "Berkelium"
+  },
+  {
+    "symbol": "Cf",
+    "atomicNumber": 98,
+    "atomicMass": 251,
+    "name": "Californium"
+  },
+  {
+    "symbol": "Es",
+    "atomicNumber": 99,
+    "atomicMass": 252,
+    "name": "Einsteinium"
+  },
+  {
+    "symbol": "Fm",
+    "atomicNumber": 100,
+    "atomicMass": 257,
+    "name": "Fermium"
+  },
+  {
+    "symbol": "Md",
+    "atomicNumber": 101,
+    "atomicMass": 258,
+    "name": "Mendelevium"
+  },
+  {
+    "symbol": "No",
+    "atomicNumber": 102,
+    "atomicMass": 259,
+    "name": "Nobelium"
+  },
+  {
+    "symbol": "Lr",
+    "atomicNumber": 103,
+    "atomicMass": 266,
+    "name": "Lawrencium"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+]
