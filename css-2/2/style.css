@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #e8e5f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #1f1f1f;
+  width: 260px;
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card .icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 18px;
+  color: #444;
+}
+
+.card button {
+  padding: 12px 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #444;
+}
+
+.card:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.card:hover button {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
