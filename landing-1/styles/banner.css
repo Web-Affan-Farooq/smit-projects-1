@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+}
+.banner > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    padding: 20px;
+}
+.banner > .content > h1 {
+    
+}
+.banner > .content > p {
+    font-size: 14px;
+}
+.banner > .content > div> button {
+    background-color: var(--foreground);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+}

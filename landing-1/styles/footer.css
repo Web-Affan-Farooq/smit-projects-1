@@ -1,0 +1,86 @@
+footer {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: start;
+    padding: 70px;
+    color: white;
+    gap: 20px;
+    background-color: var(--background);
+}
+
+.footer>.links {
+    width: 500px;
+    border: 2px solid white;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.links-container>div>.logo {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container>div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.about {
+    width: 500px;
+}
+
+.about>h2 {
+    font-size: 20px;
+}
+
+.latest-posts {
+    width: 500px;
+}
+
+.ltp-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.ltp-container>div {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ltp-container>div>.content>h3 {
+    font-size: 17px;
+}
+
+.ltp-container>div>.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ltp-container>div>.img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
