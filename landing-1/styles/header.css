@@ -4,7 +4,6 @@
  box-sizing: border-box;   
  font-family: sans-serif;
 }
-
 :root {
     --background:#272626;
     --foreground:#ff9100;
@@ -29,17 +28,19 @@ header {
     background-color:var(--background);
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items:center;
-    padding: 20px 0px;
+    padding: 20px 130px;
 }
 header > ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 header > ul > li {
     list-style-type: none;
     color: var(--accent);
+    padding: 10px 0;
     font-weight: bold;
 }
-

@@ -10,8 +10,9 @@ footer {
 }
 
 .footer>.links {
-    width: 500px;
-    border: 2px solid white;
+    background-color: white;
+    width: 20%;
+    border: 1px solid white;
 }
 
 .links-container {
@@ -20,16 +21,11 @@ footer {
     gap: 20px;
     justify-content: start;
     align-items: center;
-    border: 1px solid white;
 }
 
 .links-container>div>.logo {
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 37px;
+    height: 37px;
 }
 
 .links-container>div {
@@ -41,27 +37,36 @@ footer {
 }
 
 .about {
-    width: 500px;
+    width: 40%;
 }
 
-.about>h2 {
-    font-size: 20px;
+footer h2 {
+    font-size: 24px;
 }
 
 .latest-posts {
-    width: 500px;
+    width: 40%;
+}
+footer  h2 {
+    margin-bottom: 25px;
+    font-weight: bold;
 }
 
 .ltp-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: start;
-    align-items: center;
+}
+
+.ltp-container>div>.img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .ltp-container>div {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,11 +81,4 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-
-.ltp-container>div>.img {
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    border-radius: 10px;
 }
