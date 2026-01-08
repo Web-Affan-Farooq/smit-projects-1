@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .login-box {
+      position: relative;
+      width: 350px;
+      padding: 35px 30px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(30px);
+      border-radius: 18px;
+      color: white;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+      font-size: 24px;
+    }
+
+    .input-group {
+        position: relative;
+      margin-bottom: 18px;
+    }
+    .input-group > i {
+        position: absolute;
+        right: 5px;
+        top: 12px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px 15px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      font-size: 14px;
+    }
+
+    input::placeholder {
+      color: #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      box-shadow: 0 0 15px #00f2ff;
+      transform: scale(1.02);
+    }
+
+    .links {
+      margin-top: 15px;
+      font-size: 13px;
+    }
+
+    .links a {
+      color: #7ffcff;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
